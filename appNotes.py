@@ -19,6 +19,6 @@ def create_note_in_notes_app(note_title, note_body):
     subprocess.call(['osascript', '-e', script])
 
 # Example usage
-note_title = "Test Note777"
+note_title = "Test Note7778"
 note_body = "This is a test note created with Python."
 create_note_in_notes_app(note_title, note_body)
