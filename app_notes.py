@@ -22,4 +22,4 @@ def create_note_in_notes_app(NOTE_TITLE, NOTE_BODY):
 # Example usage
 NOTE_TITLE = "Test Note7778"
 NOTE_BODY = "This is a test note created with Python."
-create_note_in_notes_app(note_title, note_body)
+create_note_in_notes_app(NOTE_TITLE, NOTE_BODY)
