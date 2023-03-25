@@ -1,3 +1,4 @@
+'''Create a new note in the Notes app on a Mac'''
 import subprocess
 
 def create_note_in_notes_app(note_title, note_body):
