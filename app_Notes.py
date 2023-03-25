@@ -16,10 +16,10 @@ def create_note_in_notes_app(note_title, note_body):
     subprocess.call(['osascript', '-e', 'tell application "Notes" to activate'])
 
     # Use AppleScript to create a new note with the specified title and body
-    script = f'tell application "Notes" to make new note with properties {{name:"{note_title}", body:"{note_body}"}}'
+    script = f'Make new note with properties {{name:"{NOTE_TITLE}", body:"{NOTE_BODY}"}}'
     subprocess.call(['osascript', '-e', script])
 
 # Example usage
-note_title = "Test Note7778"
-note_body = "This is a test note created with Python."
+NOTE_TITLE = "Test Note7778"
+NOTE_BODY = "This is a test note created with Python."
 create_note_in_notes_app(note_title, note_body)
